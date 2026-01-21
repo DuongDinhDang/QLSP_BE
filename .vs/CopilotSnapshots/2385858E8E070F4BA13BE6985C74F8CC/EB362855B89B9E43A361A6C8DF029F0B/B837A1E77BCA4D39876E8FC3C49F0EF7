@@ -1,0 +1,77 @@
+﻿using Microsoft.EntityFrameworkCore;
+using QLSP_BE.Data;
+using QLSP_BE.Repository;
+using QLSP_BE.Repository.Interfaces;
+using QLSP_BE.Service;
+using QLSP_BE.Service.Interfaces;
+using System.Text.Json.Serialization;
+
+
+namespace QLSP_BE
+{
+    public class Program
+    {
+        public static void Main(string[] args)
+        {
+            var builder = WebApplication.CreateBuilder(args);
+
+            // Controllers
+            builder.Services.AddControllers()
+    .AddJsonOptions(options =>
+    {
+        options.JsonSerializerOptions.ReferenceHandler =
+            ReferenceHandler.IgnoreCycles;
+    });
+
+
+            // DbContext
+            builder.Services.AddDbContext<QlspContext>(options =>
+                options.UseSqlServer(
+                    builder.Configuration.GetConnectionString("DefaultConnection")));
+
+            // Repository
+            builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
+            builder.Services.AddScoped<IProductRepository, ProductRepository>();
+
+            // Service
+            builder.Services.AddScoped<ICategoryService, CategoryService>();
+            builder.Services.AddScoped<IProductService, ProductService>();
+
+            // 🔥 CORS (BẮT BUỘC CHO FRONTEND)
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("AllowFrontend",
+                    policy => policy.AllowAnyOrigin()
+                                    .AllowAnyMethod()
+                                    .AllowAnyHeader());
+            });
+
+            // Swagger
+            builder.Services.AddEndpointsApiExplorer();
+            builder.Services.AddSwaggerGen();
+
+            var app = builder.Build();
+
+            // 🔥 BẬT Developer Exception Page cho tất cả môi trường để debug
+            app.UseDeveloperExceptionPage();
+            
+            if (app.Environment.IsDevelopment())
+            {
+                app.UseSwagger();
+                app.UseSwaggerUI();
+            }
+
+            // ❌ Tạm thời tắt HTTPS redirect để test
+            // app.UseHttpsRedirection();
+
+            // 🔥 BẬT CORS
+            app.UseCors("AllowFrontend");
+
+            app.UseAuthorization();
+
+            app.MapControllers();
+            
+            app.Run();
+        }
+    }
+}

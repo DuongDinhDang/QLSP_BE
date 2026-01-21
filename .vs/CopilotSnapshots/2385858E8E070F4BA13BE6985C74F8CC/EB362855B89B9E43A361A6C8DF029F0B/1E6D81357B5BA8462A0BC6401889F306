@@ -1,0 +1,59 @@
+﻿using Microsoft.AspNetCore.Mvc;
+using QLSP_BE.Data;
+using QLSP_BE.Service.Interfaces;
+namespace QLSP_BE.Controllers
+{
+    [ApiController]
+    [Route("api/products")]
+    public class ProductController : ControllerBase
+    {   
+        private readonly IProductService _service;
+
+        public ProductController(IProductService service)
+        {
+            _service = service;
+        }
+
+        // GET: api/products?page=1&pageSize=5
+        [HttpGet]
+        public async Task<IActionResult> GetAll(int page = 1, int pageSize = 5)
+        {
+            return Ok(await _service.GetPagedAsync(page, pageSize));
+        }
+
+        // GET: api/products/5
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetById(int id)
+        {
+            var product = await _service.GetByIdAsync(id);
+            if (product == null)
+                return NotFound();
+
+            return Ok(product);
+        }
+
+        // POST: api/products
+        [HttpPost]
+        public async Task<IActionResult> Create(Product product)
+        {
+            await _service.AddAsync(product);
+            return Ok("Thêm sản phẩm thành công");
+        }
+
+        // PUT: api/products
+        [HttpPut]
+        public async Task<IActionResult> Update(Product product)
+        {
+            await _service.UpdateAsync(product);
+            return Ok("Cập nhật sản phẩm thành công");
+        }
+
+        // DELETE: api/products/5
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> Delete(int id)
+        {
+            await _service.DeleteAsync(id);
+            return Ok("Xóa sản phẩm thành công");
+        }
+    }
+}

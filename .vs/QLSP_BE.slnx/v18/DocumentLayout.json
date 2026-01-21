@@ -1,0 +1,341 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PC\\source\\repos\\QLSP_BE\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F202A155-6AEF-B77D-8D83-49ABBCAACF96}|QLSP_BE\\QLSP_BE.csproj|c:\\users\\pc\\source\\repos\\qlsp_be\\qlsp_be\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{F202A155-6AEF-B77D-8D83-49ABBCAACF96}|QLSP_BE\\QLSP_BE.csproj|solutionrelative:qlsp_be\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F202A155-6AEF-B77D-8D83-49ABBCAACF96}|QLSP_BE\\QLSP_BE.csproj|c:\\users\\pc\\source\\repos\\qlsp_be\\qlsp_be\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F202A155-6AEF-B77D-8D83-49ABBCAACF96}|QLSP_BE\\QLSP_BE.csproj|solutionrelative:qlsp_be\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F202A155-6AEF-B77D-8D83-49ABBCAACF96}|QLSP_BE\\QLSP_BE.csproj|c:\\users\\pc\\source\\repos\\qlsp_be\\qlsp_be\\service\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F202A155-6AEF-B77D-8D83-49ABBCAACF96}|QLSP_BE\\QLSP_BE.csproj|solutionrelative:qlsp_be\\service\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F202A155-6AEF-B77D-8D83-49ABBCAACF96}|QLSP_BE\\QLSP_BE.csproj|c:\\users\\pc\\source\\repos\\qlsp_be\\qlsp_be\\repository\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F202A155-6AEF-B77D-8D83-49ABBCAACF96}|QLSP_BE\\QLSP_BE.csproj|solutionrelative:qlsp_be\\repository\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F202A155-6AEF-B77D-8D83-49ABBCAACF96}|QLSP_BE\\QLSP_BE.csproj|c:\\users\\pc\\source\\repos\\qlsp_be\\qlsp_be\\repository\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F202A155-6AEF-B77D-8D83-49ABBCAACF96}|QLSP_BE\\QLSP_BE.csproj|solutionrelative:qlsp_be\\repository\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F202A155-6AEF-B77D-8D83-49ABBCAACF96}|QLSP_BE\\QLSP_BE.csproj|c:\\users\\pc\\source\\repos\\qlsp_be\\qlsp_be\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F202A155-6AEF-B77D-8D83-49ABBCAACF96}|QLSP_BE\\QLSP_BE.csproj|solutionrelative:qlsp_be\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F202A155-6AEF-B77D-8D83-49ABBCAACF96}|QLSP_BE\\QLSP_BE.csproj|c:\\users\\pc\\source\\repos\\qlsp_be\\qlsp_be\\data\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F202A155-6AEF-B77D-8D83-49ABBCAACF96}|QLSP_BE\\QLSP_BE.csproj|solutionrelative:qlsp_be\\data\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F202A155-6AEF-B77D-8D83-49ABBCAACF96}|QLSP_BE\\QLSP_BE.csproj|c:\\users\\pc\\source\\repos\\qlsp_be\\qlsp_be\\dtos\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F202A155-6AEF-B77D-8D83-49ABBCAACF96}|QLSP_BE\\QLSP_BE.csproj|solutionrelative:qlsp_be\\dtos\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F202A155-6AEF-B77D-8D83-49ABBCAACF96}|QLSP_BE\\QLSP_BE.csproj|c:\\users\\pc\\source\\repos\\qlsp_be\\qlsp_be\\service\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F202A155-6AEF-B77D-8D83-49ABBCAACF96}|QLSP_BE\\QLSP_BE.csproj|solutionrelative:qlsp_be\\service\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F202A155-6AEF-B77D-8D83-49ABBCAACF96}|QLSP_BE\\QLSP_BE.csproj|c:\\users\\pc\\source\\repos\\qlsp_be\\qlsp_be\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F202A155-6AEF-B77D-8D83-49ABBCAACF96}|QLSP_BE\\QLSP_BE.csproj|solutionrelative:qlsp_be\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F202A155-6AEF-B77D-8D83-49ABBCAACF96}|QLSP_BE\\QLSP_BE.csproj|c:\\users\\pc\\source\\repos\\qlsp_be\\qlsp_be\\data\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F202A155-6AEF-B77D-8D83-49ABBCAACF96}|QLSP_BE\\QLSP_BE.csproj|solutionrelative:qlsp_be\\data\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F202A155-6AEF-B77D-8D83-49ABBCAACF96}|QLSP_BE\\QLSP_BE.csproj|c:\\users\\pc\\source\\repos\\qlsp_be\\qlsp_be\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F202A155-6AEF-B77D-8D83-49ABBCAACF96}|QLSP_BE\\QLSP_BE.csproj|solutionrelative:qlsp_be\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F202A155-6AEF-B77D-8D83-49ABBCAACF96}|QLSP_BE\\QLSP_BE.csproj|c:\\users\\pc\\source\\repos\\qlsp_be\\qlsp_be\\repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F202A155-6AEF-B77D-8D83-49ABBCAACF96}|QLSP_BE\\QLSP_BE.csproj|solutionrelative:qlsp_be\\repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F202A155-6AEF-B77D-8D83-49ABBCAACF96}|QLSP_BE\\QLSP_BE.csproj|c:\\users\\pc\\source\\repos\\qlsp_be\\qlsp_be\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F202A155-6AEF-B77D-8D83-49ABBCAACF96}|QLSP_BE\\QLSP_BE.csproj|solutionrelative:qlsp_be\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F202A155-6AEF-B77D-8D83-49ABBCAACF96}|QLSP_BE\\QLSP_BE.csproj|c:\\users\\pc\\source\\repos\\qlsp_be\\qlsp_be\\data\\qlspcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F202A155-6AEF-B77D-8D83-49ABBCAACF96}|QLSP_BE\\QLSP_BE.csproj|solutionrelative:qlsp_be\\data\\qlspcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\source\\repos\\QLSP_BE\\QLSP_BE\\Migrations\\20260121040830_InitDatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:QLSP_BE\\Migrations\\20260121040830_InitDatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\source\\repos\\QLSP_BE\\QLSP_BE\\Migrations\\20260121040344_FixProductIsActive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:QLSP_BE\\Migrations\\20260121040344_FixProductIsActive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F202A155-6AEF-B77D-8D83-49ABBCAACF96}|QLSP_BE\\QLSP_BE.csproj|c:\\users\\pc\\source\\repos\\qlsp_be\\qlsp_be\\service\\interfaces\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F202A155-6AEF-B77D-8D83-49ABBCAACF96}|QLSP_BE\\QLSP_BE.csproj|solutionrelative:qlsp_be\\service\\interfaces\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F202A155-6AEF-B77D-8D83-49ABBCAACF96}|QLSP_BE\\QLSP_BE.csproj|c:\\users\\pc\\source\\repos\\qlsp_be\\qlsp_be\\service\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F202A155-6AEF-B77D-8D83-49ABBCAACF96}|QLSP_BE\\QLSP_BE.csproj|solutionrelative:qlsp_be\\service\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F202A155-6AEF-B77D-8D83-49ABBCAACF96}|QLSP_BE\\QLSP_BE.csproj|c:\\users\\pc\\source\\repos\\qlsp_be\\qlsp_be\\migrations\\20260121041528_initdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F202A155-6AEF-B77D-8D83-49ABBCAACF96}|QLSP_BE\\QLSP_BE.csproj|solutionrelative:qlsp_be\\migrations\\20260121041528_initdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\QLSP_BE\\QLSP_BE\\.gitignore",
+              "RelativeDocumentMoniker": "QLSP_BE\\.gitignore",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\QLSP_BE\\QLSP_BE\\.gitignore",
+              "RelativeToolTip": "QLSP_BE\\.gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-01-21T09:18:41.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProductDto.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\QLSP_BE\\QLSP_BE\\DTOs\\ProductDto.cs",
+              "RelativeDocumentMoniker": "QLSP_BE\\DTOs\\ProductDto.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\QLSP_BE\\QLSP_BE\\DTOs\\ProductDto.cs",
+              "RelativeToolTip": "QLSP_BE\\DTOs\\ProductDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T04:46:51.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\QLSP_BE\\QLSP_BE\\Service\\CategoryService.cs",
+              "RelativeDocumentMoniker": "QLSP_BE\\Service\\CategoryService.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\QLSP_BE\\QLSP_BE\\Service\\CategoryService.cs",
+              "RelativeToolTip": "QLSP_BE\\Service\\CategoryService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwB4AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T10:37:15.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\QLSP_BE\\QLSP_BE\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "QLSP_BE\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\QLSP_BE\\QLSP_BE\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "QLSP_BE\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwB0AAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T10:39:45.009Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\QLSP_BE\\QLSP_BE\\appsettings.json",
+              "RelativeDocumentMoniker": "QLSP_BE\\appsettings.json",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\QLSP_BE\\QLSP_BE\\appsettings.json",
+              "RelativeToolTip": "QLSP_BE\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-20T10:07:11.506Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CategoryDto.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\QLSP_BE\\QLSP_BE\\DTOs\\CategoryDto.cs",
+              "RelativeDocumentMoniker": "QLSP_BE\\DTOs\\CategoryDto.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\QLSP_BE\\QLSP_BE\\DTOs\\CategoryDto.cs",
+              "RelativeToolTip": "QLSP_BE\\DTOs\\CategoryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T04:46:58.687Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\QLSP_BE\\QLSP_BE\\Data\\Category.cs",
+              "RelativeDocumentMoniker": "QLSP_BE\\Data\\Category.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\QLSP_BE\\QLSP_BE\\Data\\Category.cs",
+              "RelativeToolTip": "QLSP_BE\\Data\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T10:28:33.515Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\QLSP_BE\\QLSP_BE\\Data\\Product.cs",
+              "RelativeDocumentMoniker": "QLSP_BE\\Data\\Product.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\QLSP_BE\\QLSP_BE\\Data\\Product.cs",
+              "RelativeToolTip": "QLSP_BE\\Data\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T04:01:47.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\QLSP_BE\\QLSP_BE\\Service\\ProductService.cs",
+              "RelativeDocumentMoniker": "QLSP_BE\\Service\\ProductService.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\QLSP_BE\\QLSP_BE\\Service\\ProductService.cs",
+              "RelativeToolTip": "QLSP_BE\\Service\\ProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T10:37:24.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\QLSP_BE\\QLSP_BE\\Repository\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "QLSP_BE\\Repository\\CategoryRepository.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\QLSP_BE\\QLSP_BE\\Repository\\CategoryRepository.cs",
+              "RelativeToolTip": "QLSP_BE\\Repository\\CategoryRepository.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAswB4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T10:22:14.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\QLSP_BE\\QLSP_BE\\Repository\\Interfaces\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "QLSP_BE\\Repository\\Interfaces\\IProductRepository.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\QLSP_BE\\QLSP_BE\\Repository\\Interfaces\\IProductRepository.cs",
+              "RelativeToolTip": "QLSP_BE\\Repository\\Interfaces\\IProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T10:21:29.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\QLSP_BE\\QLSP_BE\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "QLSP_BE\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\QLSP_BE\\QLSP_BE\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "QLSP_BE\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwA4AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T10:39:52.676Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\QLSP_BE\\QLSP_BE\\Repository\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "QLSP_BE\\Repository\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\QLSP_BE\\QLSP_BE\\Repository\\ProductRepository.cs",
+              "RelativeToolTip": "QLSP_BE\\Repository\\ProductRepository.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAYwDsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T10:22:22.417Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "20260121040830_InitDatabase.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\QLSP_BE\\QLSP_BE\\Migrations\\20260121040830_InitDatabase.cs",
+              "RelativeDocumentMoniker": "QLSP_BE\\Migrations\\20260121040830_InitDatabase.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\QLSP_BE\\QLSP_BE\\Migrations\\20260121040830_InitDatabase.cs",
+              "RelativeToolTip": "QLSP_BE\\Migrations\\20260121040830_InitDatabase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T04:08:30.985Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\QLSP_BE\\QLSP_BE\\Program.cs",
+              "RelativeDocumentMoniker": "QLSP_BE\\Program.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\QLSP_BE\\QLSP_BE\\Program.cs",
+              "RelativeToolTip": "QLSP_BE\\Program.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAWwDsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T10:04:23.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "20260121041528_InitDatabase.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\QLSP_BE\\QLSP_BE\\Migrations\\20260121041528_InitDatabase.cs",
+              "RelativeDocumentMoniker": "QLSP_BE\\Migrations\\20260121041528_InitDatabase.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\QLSP_BE\\QLSP_BE\\Migrations\\20260121041528_InitDatabase.cs",
+              "RelativeToolTip": "QLSP_BE\\Migrations\\20260121041528_InitDatabase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T04:15:29.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "QlspContext.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\QLSP_BE\\QLSP_BE\\Data\\QlspContext.cs",
+              "RelativeDocumentMoniker": "QLSP_BE\\Data\\QlspContext.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\QLSP_BE\\QLSP_BE\\Data\\QlspContext.cs",
+              "RelativeToolTip": "QLSP_BE\\Data\\QlspContext.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T10:06:53.687Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "20260121040344_FixProductIsActive.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\QLSP_BE\\QLSP_BE\\Migrations\\20260121040344_FixProductIsActive.cs",
+              "RelativeDocumentMoniker": "QLSP_BE\\Migrations\\20260121040344_FixProductIsActive.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\QLSP_BE\\QLSP_BE\\Migrations\\20260121040344_FixProductIsActive.cs",
+              "RelativeToolTip": "QLSP_BE\\Migrations\\20260121040344_FixProductIsActive.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBoAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T04:03:45.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ICategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\QLSP_BE\\QLSP_BE\\Service\\Interfaces\\ICategoryService.cs",
+              "RelativeDocumentMoniker": "QLSP_BE\\Service\\Interfaces\\ICategoryService.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\QLSP_BE\\QLSP_BE\\Service\\Interfaces\\ICategoryService.cs",
+              "RelativeToolTip": "QLSP_BE\\Service\\Interfaces\\ICategoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T10:36:52.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\QLSP_BE\\QLSP_BE\\Service\\Interfaces\\IProductService.cs",
+              "RelativeDocumentMoniker": "QLSP_BE\\Service\\Interfaces\\IProductService.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\QLSP_BE\\QLSP_BE\\Service\\Interfaces\\IProductService.cs",
+              "RelativeToolTip": "QLSP_BE\\Service\\Interfaces\\IProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T10:37:04.203Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

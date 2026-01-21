@@ -1,0 +1,68 @@
+﻿using Microsoft.AspNetCore.Mvc;
+using QLSP_BE.Data;
+using QLSP_BE.Service.Interfaces;
+
+namespace QLSP_BE.Controllers
+{
+    [ApiController]
+    [Route("api/categories")]
+    public class CategoryController : ControllerBase
+    {
+        private readonly ICategoryService _service;
+
+        public CategoryController(ICategoryService service)
+        {
+            _service = service;
+        }
+
+        // GET: api/categories?page=1&pageSize=5
+        [HttpGet]
+        public async Task<IActionResult> GetAll(int page = 1, int pageSize = 5)
+        {
+            try
+            {
+                var result = await _service.GetPagedAsync(page, pageSize);
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new { error = ex.Message, stackTrace = ex.StackTrace });
+            }
+        }
+
+        // GET: api/categories/5
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetById(int id)
+        {
+            var category = await _service.GetByIdAsync(id);
+            if (category == null)
+                return NotFound();
+
+            return Ok(category);
+        }
+
+        // POST: api/categories
+        [HttpPost]
+        public async Task<IActionResult> Create(Category category)
+        {
+            await _service.AddAsync(category);
+            return Ok("Thêm loại sản phẩm thành công");
+        }
+
+        // PUT: api/categories
+        [HttpPut]
+        public async Task<IActionResult> Update(Category category)
+        {
+            await _service.UpdateAsync(category);
+            return Ok("Cập nhật loại sản phẩm thành công");
+        }
+
+        // DELETE: api/categories/5
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> Delete(int id)
+        {
+            await _service.DeleteAsync(id);
+            return Ok("Xóa loại sản phẩm thành công");
+        }
+    }
+}

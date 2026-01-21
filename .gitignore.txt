@@ -1,0 +1,23 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build output
+bin/
+obj/
+
+# ASP.NET Core
+appsettings.Development.json
+
+# Docker
+**/docker-compose.override.yml
+
+# Logs
+*.log
+
+# OS
+Thumbs.db
+.DS_Store
